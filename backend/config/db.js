@@ -8,7 +8,7 @@
             useCreateIndex:true
         })
         console.log(`MongoDB Connected: ${conn.connection.host}`)
-     } catch{
+     } catch(error){
         console.error(`Error: ${error.message}`)
         process.exit(1)
     }
